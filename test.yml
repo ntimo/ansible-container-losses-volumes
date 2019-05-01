@@ -1,0 +1,8 @@
+- hosts: localhost
+  tasks:
+  
+  - docker_service:
+      
+  - docker_container:
+      name: mailcowdockerized_nginx-mailcow_1
+      restart: yes
