@@ -1,0 +1,7 @@
+user = mailcow
+password = iuwdidioawdqwzr8193r8qhcaiowhaio
+hosts = unix:/var/run/mysqld/mysqld.sock
+dbname = mailcow
+query = SELECT goto FROM alias
+  WHERE address='%s'
+    AND active='1';
